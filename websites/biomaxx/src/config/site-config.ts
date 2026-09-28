@@ -20,18 +20,6 @@ export interface HeroSlide {
   brandBadge?: string;
 }
 
-// Base public URLs for independent applications with local development fallbacks
-const BIOMAXX_URL = process.env.NEXT_PUBLIC_BIOMAXX_URL || "http://localhost:3000";
-const PAMPA_GRILL_URL = process.env.NEXT_PUBLIC_PAMPA_GRILL_URL || "http://localhost:3008";
-const NANODAK_URL = process.env.NEXT_PUBLIC_NANODAK_URL || "http://localhost:3007";
-const GODIAL_URL = process.env.NEXT_PUBLIC_GODIAL_URL || "http://localhost:3005";
-const BIOMAXX_CORPORATE_URL = process.env.NEXT_PUBLIC_BIOMAXX_CORPORATE_URL || "http://localhost:3009";
-
-const formatUrl = (baseUrl: string, path: string = "") => {
-  const cleanBase = baseUrl.replace(/\/+$/, "");
-  const cleanPath = path ? (path.startsWith("/") ? path : `/${path}`) : "/";
-  return `${cleanBase}${cleanPath}`;
-};
 
 export const siteConfig = {
   siteName: "BIOMAXX",
@@ -50,15 +38,15 @@ export const siteConfig = {
   footerSlogan: "CRECEMOS JUNTOS, CONSTRUYENDO SOLUCIONES PARA UN MUNDO MEJOR.",
   copyright: "© 2024 BIOMAXX. Todos los derechos reservados.",
   
-  // Navigation Links - Configurable for independent sites
+  // Navigation Links - Single App Unified Internal Routes
   navLinks: [
-    { label: "Nosotros", href: formatUrl(BIOMAXX_CORPORATE_URL, "/nosotros"), external: true },
-    { label: "Biomaxx", href: formatUrl(BIOMAXX_URL, "/"), external: true },
-    { label: "Pampa grill", href: formatUrl(PAMPA_GRILL_URL, "/"), external: true },
-    { label: "NaNoDaK", href: formatUrl(NANODAK_URL, "/"), external: true },
-    { label: "Godial Trading Company", href: formatUrl(GODIAL_URL, "/"), external: true },
-    { label: "Contacto", href: formatUrl(BIOMAXX_CORPORATE_URL, "/contacto"), external: true },
-    { label: "Legales", href: formatUrl(BIOMAXX_CORPORATE_URL, "/legales"), external: true },
+    { label: "Nosotros", href: "/nosotros" },
+    { label: "Biomaxx", href: "/" },
+    { label: "Pampa grill", href: "/pampa-grill" },
+    { label: "NaNoDaK", href: "/nanodak" },
+    { label: "Godial Trading Company", href: "/godial-trading-company" },
+    { label: "Contacto", href: "/contacto" },
+    { label: "Legales", href: "/legales" },
   ] as NavLink[],
 
   // Hero Carousel Slides
@@ -100,28 +88,28 @@ export const siteConfig = {
       name: "Biomaxx",
       subtitle: "Soluciones industriales sin límites.",
       image: "/images/card-biomaxx.png",
-      href: "#biomaxx",
+      href: "/",
     },
     {
       id: "nanodak",
       name: "NaNoDaK",
       subtitle: "Productos premium para protección y rendimiento.",
       image: "/images/card-nanodak.png",
-      href: "#nanodak",
+      href: "/nanodak",
     },
     {
       id: "godial-trading",
       name: "Godial Trading Company",
       subtitle: "Equipos industriales para un mundo en movimiento.",
       image: "/images/card-godial.png",
-      href: "#godial-trading",
+      href: "/godial-trading-company",
     },
     {
       id: "pampa-grill",
       name: "Pampa grill",
       subtitle: "Fuego que une tradición, sabor y naturaleza.",
       image: "/images/card-pampa.png",
-      href: "#pampa-grill",
+      href: "/pampa-grill",
     },
   ] as BusinessUnit[],
 
@@ -130,12 +118,12 @@ export const siteConfig = {
     nosotros: {
       title: "Nosotros",
       subtitle: "Una visión global para un futuro con más oportunidades.",
-      href: "#nosotros",
+      href: "/nosotros",
     },
     contacto: {
       title: "Contacto",
       subtitle: "Hablemos de nuevas posibilidades. Estamos para asesorarte.",
-      href: "#contacto",
+      href: "/contacto",
     },
   },
 
