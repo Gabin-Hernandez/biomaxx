@@ -37,11 +37,10 @@ export default function EcocueroPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/ecocuero/hero.png"
+              src="/images/nanodak/ecocuero/hero.webp"
               alt="Ecocuero NaNoDak background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none z-[1]" />
@@ -123,34 +122,34 @@ export default function EcocueroPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
               <div className="lg:col-span-6 relative min-h-[300px] rounded-2xl overflow-hidden shadow-xs">
-                <Image src="/images/nanodak/ecocuero/principal.png" alt="Ecocuero principal" fill unoptimized className="object-cover object-center" />
+                <Image src="/images/nanodak/ecocuero/principal.webp" alt="Ecocuero principal" fill className="object-cover object-center" />
               </div>
 
               <div className="lg:col-span-6 grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-4/3 bg-gray-100">
-                    <Image src="/images/nanodak/ecocuero/detalles-de-textura.png" alt="Detalle de textura" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/ecocuero/detalles-de-textura.webp" alt="Detalle de textura" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-[11px] font-bold uppercase">DETALLE DE TEXTURA</div>
                   </div>
                 </div>
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-4/3 bg-gray-100">
-                    <Image src="/images/nanodak/ecocuero/principal.png" alt="Variedad de colores" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/ecocuero/principal.webp" alt="Variedad de colores" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-[11px] font-bold uppercase">VARIEDAD DE COLORES</div>
                   </div>
                 </div>
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-4/3 bg-gray-100">
-                    <Image src="/images/nanodak/ecocuero/aplicacion-transporte.png" alt="Aplicación transporte" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/ecocuero/aplicacion-transporte.webp" alt="Aplicación transporte" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-[11px] font-bold uppercase">TRANSPORTE URBANO</div>
                   </div>
                 </div>
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-4/3 bg-gray-100">
-                    <Image src="/images/nanodak/ecocuero/terminaciones-de-calidad.png" alt="Terminaciones de calidad" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/ecocuero/terminaciones-de-calidad.webp" alt="Terminaciones de calidad" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-[11px] font-bold uppercase">TERMINACIONES DE ALTA CALIDAD</div>
                   </div>
                 </div>
@@ -211,7 +210,7 @@ export default function EcocueroPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                     <div className="relative aspect-4/3 bg-gray-100">
-                      <Image src="/images/nanodak/ecocuero/aplicacion-urbano.png" alt="Transporte urbano" fill unoptimized className="object-cover" />
+                      <Image src="/images/nanodak/ecocuero/aplicacion-urbano.webp" alt="Transporte urbano" fill className="object-cover" />
                     </div>
                     <div className="p-3">
                       <h4 className="text-xs font-bold text-gray-900 mb-1">Transporte urbano</h4>
@@ -221,7 +220,7 @@ export default function EcocueroPage() {
 
                   <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                     <div className="relative aspect-4/3 bg-gray-100">
-                      <Image src="/images/nanodak/ecocuero/mobiliario-comercial.png" alt="Mobiliario comercial" fill unoptimized className="object-cover" />
+                      <Image src="/images/nanodak/ecocuero/mobiliario-comercial.webp" alt="Mobiliario comercial" fill className="object-cover" />
                     </div>
                     <div className="p-3">
                       <h4 className="text-xs font-bold text-gray-900 mb-1">Mobiliario comercial</h4>
@@ -231,7 +230,7 @@ export default function EcocueroPage() {
 
                   <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                     <div className="relative aspect-4/3 bg-gray-100">
-                      <Image src="/images/nanodak/ecocuero/aplicaciones-industriales.png" alt="Aplicaciones industriales" fill unoptimized className="object-cover" />
+                      <Image src="/images/nanodak/ecocuero/aplicaciones-industriales.webp" alt="Aplicaciones industriales" fill className="object-cover" />
                     </div>
                     <div className="p-3">
                       <h4 className="text-xs font-bold text-gray-900 mb-1">Uso industrial</h4>

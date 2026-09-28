@@ -36,11 +36,10 @@ export default function DelantalesPVCPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/delantales/hero.png"
+              src="/images/nanodak/delantales/hero.webp"
               alt="Delantales de PVC NaNoDak background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none z-[1]" />
@@ -111,7 +110,7 @@ export default function DelantalesPVCPage() {
               {/* Left Side: Diagram with dimensions */}
               <div className="lg:col-span-5 bg-gray-50 p-6 rounded-2xl border border-gray-200/80 text-center flex flex-col items-center justify-center relative min-h-[380px]">
                 <div className="relative w-full max-w-[280px] h-[340px]">
-                  <Image src="/images/nanodak/delantales/0.png" alt="Diagrama delantal PVC" fill unoptimized className="object-contain" />
+                  <Image src="/images/nanodak/delantales/0.webp" alt="Diagrama delantal PVC" fill className="object-contain" />
                 </div>
                 <div className="text-xs font-bold text-gray-700 mt-2">
                   1,2 m (alto) × 90 cm (ancho)
@@ -166,7 +165,7 @@ export default function DelantalesPVCPage() {
                     <div className="bg-white p-3 rounded-xl border border-gray-200 text-center">
                       <h5 className="text-xs font-bold text-gray-900 uppercase mb-2">DELANTAL INDIVIDUAL</h5>
                       <div className="relative aspect-4/3 bg-gray-100 rounded-lg overflow-hidden mb-2">
-                        <Image src="/images/nanodak/delantales/1.png" alt="Ojal PVC" fill unoptimized className="object-contain" />
+                        <Image src="/images/nanodak/delantales/1.webp" alt="Ojal PVC" fill className="object-contain" />
                       </div>
                       <p className="text-[11px] text-gray-500">Detalle de sujeción con ojal de PVC de alta resistencia.</p>
                     </div>
@@ -174,7 +173,7 @@ export default function DelantalesPVCPage() {
                     <div className="bg-white p-3 rounded-xl border border-gray-200 text-center">
                       <h5 className="text-xs font-bold text-gray-900 uppercase mb-2">DISEÑO FUNCIONAL</h5>
                       <div className="relative aspect-4/3 bg-gray-100 rounded-lg overflow-hidden mb-2">
-                        <Image src="/images/nanodak/delantales/2.png" alt="Sujeción cuello" fill unoptimized className="object-contain" />
+                        <Image src="/images/nanodak/delantales/2.webp" alt="Sujeción cuello" fill className="object-contain" />
                       </div>
                       <p className="text-[11px] text-gray-500">Diseño funcional y resistente para uso intensivo.</p>
                     </div>

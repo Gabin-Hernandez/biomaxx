@@ -143,11 +143,10 @@ export default function BiomaxxCorporatePage() {
           {/* Panoramic Cargo Ship Hero Image */}
           <div className="absolute inset-0 w-full h-full max-w-[1920px] mx-auto">
             <Image
-              src="/images/HERO-PARTE-BLANCA-FFF-.png"
+              src="/images/HERO-PARTE-BLANCA-FFF-.webp"
               alt="Biomaxx industrial hero background"
               fill
               priority
-              unoptimized
               className="object-cover object-right sm:object-center w-full h-full"
             />
           </div>
@@ -205,10 +204,9 @@ export default function BiomaxxCorporatePage() {
                 <div>
                   <div className="relative w-full aspect-[21/9] sm:aspect-video rounded-2xl overflow-hidden mb-3.5 border border-slate-100">
                     <Image
-                      src="/images/corporate/home/metalmecanica.png"
+                      src="/images/corporate/home/metalmecanica.webp"
                       alt="Metalmecánica Biomaxx"
                       fill
-                      unoptimized
                       className="object-cover"
                     />
                   </div>
@@ -252,10 +250,9 @@ export default function BiomaxxCorporatePage() {
                 <div>
                   <div className="relative w-full aspect-[21/9] sm:aspect-video rounded-2xl overflow-hidden mb-3.5 border border-slate-100">
                     <Image
-                      src="/images/corporate/home/import-export.png"
+                      src="/images/corporate/home/import-export.webp"
                       alt="Importación y Exportación Biomaxx"
                       fill
-                      unoptimized
                       className="object-cover"
                     />
                   </div>

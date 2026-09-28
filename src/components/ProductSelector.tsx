@@ -47,7 +47,6 @@ export function ProductSelector({ activeSlug }: ProductSelectorProps) {
                       src={prod.image}
                       alt={prod.title}
                       fill
-                      unoptimized
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>

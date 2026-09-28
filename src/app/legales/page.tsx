@@ -62,11 +62,10 @@ export default function LegalesPage() {
         <section className="relative w-full overflow-hidden min-h-[480px] md:min-h-[540px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/corporate/legales/hero.png"
+              src="/images/corporate/legales/hero.webp"
               alt="Biomaxx Legal office background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent md:w-2/3 lg:w-7/12" />

@@ -13,7 +13,7 @@ const PAMPA_PRODUCTS = [
     title: "Pellets de quebracho colorado premium blend",
     categoryTag: "PELLETS DE QUEBRACHO",
     homeDescription: "Pellets de quebracho colorado, sabor ahumado auténtico y alto rendimiento.",
-    packImage: "/images/pampa/pellets/medidas.png",
+    packImage: "/images/pampa/pellets/medidas.webp",
   },
   {
     id: "carbon-quebracho-premium",
@@ -21,7 +21,7 @@ const PAMPA_PRODUCTS = [
     title: "Carbón de quebracho premium",
     categoryTag: "CARBÓN DE QUEBRACHO",
     homeDescription: "Carbón de quebracho blanco argentino, máximo poder calorífico y larga duración.",
-    packImage: "/images/pampa/carbon/empaque.png",
+    packImage: "/images/pampa/carbon/empaque.webp",
   },
   {
     id: "grill-torch",
@@ -29,7 +29,7 @@ const PAMPA_PRODUCTS = [
     title: "Disco de carbón vegetal",
     categoryTag: "GRILL TORCH",
     homeDescription: "Disco de carbón vegetal de quebracho blanco con pizca de quebracho colorado.",
-    packImage: "/images/pampa/grill-torch/medidas.png",
+    packImage: "/images/pampa/grill-torch/medidas.webp",
   },
   {
     id: "briquetas-quebracho-blanco",
@@ -37,7 +37,7 @@ const PAMPA_PRODUCTS = [
     title: "Briquetas premium blanco",
     categoryTag: "BRIQUETAS DE QUEBRACHO",
     homeDescription: "Briquetas de quebracho blanco, máxima duración y calor constante.",
-    packImage: "/images/pampa/briquetas/empaque.png",
+    packImage: "/images/pampa/briquetas/empaque.webp",
   },
 ];
 
@@ -77,7 +77,6 @@ export default function PampaGrillPage() {
                       src={product.packImage}
                       alt={product.title}
                       fill
-                      unoptimized
                       className="object-contain p-3"
                     />
                   </div>

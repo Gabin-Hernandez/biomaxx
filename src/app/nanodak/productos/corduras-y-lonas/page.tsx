@@ -36,11 +36,10 @@ export default function CordurasYLonasPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/corduras/hero-1.png"
+              src="/images/nanodak/corduras/hero-1.webp"
               alt="Corduras y lonas NaNoDak background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none z-[1]" />
@@ -139,11 +138,10 @@ export default function CordurasYLonasPage() {
         <section className="relative w-full overflow-hidden min-h-[380px] md:min-h-[440px] flex items-center bg-white my-6">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/corduras/hero-2.png"
+              src="/images/nanodak/corduras/hero-2.webp"
               alt="Resistencia en cada aplicación corduras"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             {/* Left side white gradient overlay */}
@@ -267,7 +265,7 @@ export default function CordurasYLonasPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/corduras/lona-camiones.png" alt="Lonas para camiones" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/corduras/lona-camiones.webp" alt="Lonas para camiones" fill className="object-cover" />
                   <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">LONAS PARA CAMIONES</div>
                 </div>
                 <div className="p-3 text-xs text-gray-600">Transporte seguro y protegido en todo tipo de condiciones.</div>
@@ -275,7 +273,7 @@ export default function CordurasYLonasPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/corduras/toldos-y-estructuras.png" alt="Toldos y estructuras" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/corduras/toldos-y-estructuras.webp" alt="Toldos y estructuras" fill className="object-cover" />
                   <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">TOLDOS Y ESTRUCTURAS</div>
                 </div>
                 <div className="p-3 text-xs text-gray-600">Soluciones para eventos, ferias y espacios comerciales.</div>
@@ -283,7 +281,7 @@ export default function CordurasYLonasPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/corduras/lonas-pvc.png" alt="Detalle de lona PVC" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/corduras/lonas-pvc.webp" alt="Detalle de lona PVC" fill className="object-cover" />
                   <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">DETALLE DE LONA PVC</div>
                 </div>
                 <div className="p-3 text-xs text-gray-600">Terminaciones reforzadas y gran resistencia.</div>
@@ -291,7 +289,7 @@ export default function CordurasYLonasPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/corduras/corduras-mochilas-y-equipamientos.png" alt="Corduras para mochilas" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/corduras/corduras-mochilas-y-equipamientos.webp" alt="Corduras para mochilas" fill className="object-cover" />
                   <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">CORDURAS MOCHILAS</div>
                 </div>
                 <div className="p-3 text-xs text-gray-600">Materiales resistentes para uso industrial, comercial y outdoor.</div>
@@ -299,7 +297,7 @@ export default function CordurasYLonasPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/corduras/cubiertas-industriales-y-agricolas.png" alt="Cubiertas industriales" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/corduras/cubiertas-industriales-y-agricolas.webp" alt="Cubiertas industriales" fill className="object-cover" />
                   <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">CUBIERTAS AGRÍCOLAS</div>
                 </div>
                 <div className="p-3 text-xs text-gray-600">Protección confiable para múltiples aplicaciones.</div>
@@ -312,10 +310,9 @@ export default function CordurasYLonasPage() {
         <section className="relative w-full overflow-hidden min-h-[280px] md:min-h-[340px] flex items-center bg-slate-900 my-8">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/corduras/hero-3.png"
+              src="/images/nanodak/corduras/hero-3.webp"
               alt="Materiales que acompañan grandes desafíos NaNoDak"
               fill
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             {/* Left side white gradient overlay */}

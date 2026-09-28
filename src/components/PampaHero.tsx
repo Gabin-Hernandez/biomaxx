@@ -9,11 +9,10 @@ export function PampaHero() {
       {/* Background Image Composition */}
       <div className="absolute inset-0 w-full h-full max-w-[1920px] mx-auto">
         <Image
-          src="/images/pampa/hero.png"
+          src="/images/pampa/hero.webp"
           alt="Pampa Grill BBQ panoramic background composition"
           fill
           priority
-          unoptimized
           className="object-cover object-center w-full h-full"
         />
         {/* White gradient overlays for flawless text readability on wide screens / negative zoom */}

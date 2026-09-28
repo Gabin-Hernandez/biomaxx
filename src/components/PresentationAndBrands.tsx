@@ -8,7 +8,7 @@ export const GODIAL_BRAND_CARDS = [
     id: "dyneema",
     name: "Dyneema®",
     subtitle: "Fibras de alto rendimiento para un mundo más seguro.",
-    image: "/images/godial/dynema.png",
+    image: "/images/godial/dynema.webp",
     href: "/godial-trading-company/dyneema",
     titleColor: "text-[#0047ba]",
   },
@@ -16,7 +16,7 @@ export const GODIAL_BRAND_CARDS = [
     id: "noram-sx",
     name: "NORAM SX",
     subtitle: "Neumáticos fuera de ruta de máxima resistencia.",
-    image: "/images/godial/noram-sx.png",
+    image: "/images/godial/noram-sx.webp",
     href: "/godial-trading-company/noram-sx",
     titleColor: "text-slate-900",
   },
@@ -25,7 +25,7 @@ export const GODIAL_BRAND_CARDS = [
     name: "Importación",
     subtitle:
       "Realizamos importaciones, buscamos clientes en el mundo y brindamos soluciones integrales para la importación de productos.",
-    image: "/images/godial/importacion.png",
+    image: "/images/godial/importacion.webp",
     href: "/godial-trading-company/importacion",
     titleColor: "text-[#0047ba]",
   },
@@ -80,7 +80,6 @@ export function PresentationAndBrands() {
                         src={card.image}
                         alt={card.name}
                         fill
-                        unoptimized
                         className="object-cover"
                       />
                     </div>

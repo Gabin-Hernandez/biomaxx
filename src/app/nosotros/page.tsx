@@ -8,19 +8,19 @@ import { ArrowRightIcon, CheckCircleIcon } from "@/components/Icons";
 const NOSOTROS_VALUES = [
   {
     title: "Misión",
-    image: "/images/corporate/nosotros/mision.png",
+    image: "/images/corporate/nosotros/mision.webp",
     description:
       "Impulsar el desarrollo a través de soluciones innovadoras, comercio internacional y alianzas estratégicas, generando valor sostenible para un mundo en movimiento.",
   },
   {
     title: "Visión",
-    image: "/images/corporate/nosotros/vision.png",
+    image: "/images/corporate/nosotros/vision.webp",
     description:
       "Ser un referente global en soluciones industriales sostenibles, reconocidos por nuestra integridad, innovación y por el impacto positivo en las comunidades y el medio ambiente.",
   },
   {
     title: "Valores",
-    image: "/images/corporate/nosotros/valores.png",
+    image: "/images/corporate/nosotros/valores.webp",
     items: [
       "Integridad",
       "Innovación",
@@ -32,13 +32,13 @@ const NOSOTROS_VALUES = [
 ];
 
 const CLIENT_LOGOS = [
-  { name: "Chedraui", image: "/images/corporate/nosotros/clientes/1.png" },
-  { name: "Smart & Final", image: "/images/corporate/nosotros/clientes/2.png" },
-  { name: "Metropol", image: "/images/corporate/nosotros/clientes/3.png" },
-  { name: "Arcor", image: "/images/corporate/nosotros/clientes/4.png" },
-  { name: "FM", image: "/images/corporate/nosotros/clientes/5.png" },
-  { name: "Euroswiss", image: "/images/corporate/nosotros/clientes/6.png" },
-  { name: "Prysmian", image: "/images/corporate/nosotros/clientes/7.png" },
+  { name: "Chedraui", image: "/images/corporate/nosotros/clientes/1.webp" },
+  { name: "Smart & Final", image: "/images/corporate/nosotros/clientes/2.webp" },
+  { name: "Metropol", image: "/images/corporate/nosotros/clientes/3.webp" },
+  { name: "Arcor", image: "/images/corporate/nosotros/clientes/4.webp" },
+  { name: "FM", image: "/images/corporate/nosotros/clientes/5.webp" },
+  { name: "Euroswiss", image: "/images/corporate/nosotros/clientes/6.webp" },
+  { name: "Prysmian", image: "/images/corporate/nosotros/clientes/7.webp" },
 ];
 
 export default function NosotrosPage() {
@@ -51,11 +51,10 @@ export default function NosotrosPage() {
         <section className="relative w-full overflow-hidden min-h-[480px] md:min-h-[560px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/corporate/nosotros/hero.png"
+              src="/images/corporate/nosotros/hero.webp"
               alt="Biomaxx Corporate Headquarters background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent md:w-2/3 lg:w-7/12" />
@@ -108,7 +107,6 @@ export default function NosotrosPage() {
                         src={val.image}
                         alt={val.title}
                         fill
-                        unoptimized
                         className="object-cover object-center"
                       />
                     </div>
@@ -163,7 +161,6 @@ export default function NosotrosPage() {
                       src={client.image}
                       alt={client.name}
                       fill
-                      unoptimized
                       className="object-contain"
                     />
                   </div>

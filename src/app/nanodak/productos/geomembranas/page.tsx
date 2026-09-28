@@ -36,11 +36,10 @@ export default function GeomembranasPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/geomembranas/hero-1.png"
+              src="/images/nanodak/geomembranas/hero-1.webp"
               alt="Geomembranas NaNoDak background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none z-[1]" />
@@ -173,10 +172,9 @@ export default function GeomembranasPage() {
               {/* Left Feature Panel */}
               <div className="lg:col-span-5 relative min-h-[320px] rounded-2xl overflow-hidden shadow-xs flex items-end p-6">
                 <Image
-                  src="/images/nanodak/geomembranas/principal-servicios.png"
+                  src="/images/nanodak/geomembranas/principal-servicios.webp"
                   alt="Protegiendo el presente"
                   fill
-                  unoptimized
                   className="object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
@@ -192,7 +190,7 @@ export default function GeomembranasPage() {
               <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-16/9 bg-gray-100">
-                    <Image src="/images/nanodak/geomembranas/MINERIA-Y-LITIO.png" alt="Minería y litio" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/geomembranas/MINERIA-Y-LITIO.webp" alt="Minería y litio" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">MINERÍA Y LITIO</div>
                   </div>
                   <div className="p-3 text-xs text-gray-600">Impermeabilización de pilas de lixiviación, pozas de proceso y control.</div>
@@ -200,7 +198,7 @@ export default function GeomembranasPage() {
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-16/9 bg-gray-100">
-                    <Image src="/images/nanodak/geomembranas/reservorios-de-agua.png" alt="Reservorios de agua" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/geomembranas/reservorios-de-agua.webp" alt="Reservorios de agua" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">RESERVORIOS DE AGUA</div>
                   </div>
                   <div className="p-3 text-xs text-gray-600">Almacenamiento seguro de agua para uso industrial, agrícola y consumo.</div>
@@ -208,7 +206,7 @@ export default function GeomembranasPage() {
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-16/9 bg-gray-100">
-                    <Image src="/images/nanodak/geomembranas/fosas-cepticas.png" alt="Fosas sépticas" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/geomembranas/fosas-cepticas.webp" alt="Fosas sépticas" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">FOSAS SÉPTICAS</div>
                   </div>
                   <div className="p-3 text-xs text-gray-600">Contención de residuos líquidos con alta resistencia química.</div>
@@ -216,7 +214,7 @@ export default function GeomembranasPage() {
 
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                   <div className="relative aspect-16/9 bg-gray-100">
-                    <Image src="/images/nanodak/geomembranas/uso-agricola-y-riego.png" alt="Uso agrícola y riego" fill unoptimized className="object-cover" />
+                    <Image src="/images/nanodak/geomembranas/uso-agricola-y-riego.webp" alt="Uso agrícola y riego" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-slate-900/80 p-2 text-center text-white text-xs font-bold uppercase">USO AGRÍCOLA Y RIEGO</div>
                   </div>
                   <div className="p-3 text-xs text-gray-600">Reservorios, canales y sistemas de riego que maximizan la eficiencia.</div>

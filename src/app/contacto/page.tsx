@@ -43,11 +43,10 @@ export default function ContactoPage() {
         <section className="relative w-full overflow-hidden min-h-[420px] md:min-h-[480px] flex items-center bg-[#07361b]">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/corporate/contacto/hero.png"
+              src="/images/corporate/contacto/hero.webp"
               alt="Biomaxx Contact port background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#07361b] via-[#07361b]/90 to-transparent md:w-2/3 lg:w-1/2" />

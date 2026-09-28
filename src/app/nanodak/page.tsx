@@ -23,11 +23,10 @@ export default function NanodakPage() {
           {/* Full width background image composition */}
           <div className="absolute inset-0 w-full h-full max-w-[1920px] mx-auto">
             <Image
-              src="/images/nanodak/home/hero.png"
+              src="/images/nanodak/home/hero.webp"
               alt="NaNoDak industrial non-woven fabrics background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
           </div>
@@ -137,10 +136,9 @@ export default function NanodakPage() {
         <section className="relative w-full overflow-hidden min-h-[320px] md:min-h-[400px] flex items-center">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/home/hero-down.png"
+              src="/images/nanodak/home/hero-down.webp"
               alt="Textiles que hacen industrias más fuertes"
               fill
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             {/* Dark gradient overlay on left for title readability */}

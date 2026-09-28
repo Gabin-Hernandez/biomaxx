@@ -36,11 +36,10 @@ export default function PisosAltoTransitoPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/nanodak/pisos/hero.png"
+              src="/images/nanodak/pisos/hero.webp"
               alt="Pisos de alto tránsito NaNoDak background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none z-[1]" />
@@ -183,7 +182,7 @@ export default function PisosAltoTransitoPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/pisos/gymnacios.png" alt="Gimnasios" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/pisos/gymnacios.webp" alt="Gimnasios" fill className="object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-gray-900 mb-1">Gimnasios</h3>
@@ -193,7 +192,7 @@ export default function PisosAltoTransitoPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/pisos/industria.png" alt="Industria" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/pisos/industria.webp" alt="Industria" fill className="object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-gray-900 mb-1">Industria</h3>
@@ -203,7 +202,7 @@ export default function PisosAltoTransitoPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/pisos/transporte.png" alt="Transporte" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/pisos/transporte.webp" alt="Transporte" fill className="object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-gray-900 mb-1">Transporte</h3>
@@ -213,7 +212,7 @@ export default function PisosAltoTransitoPage() {
 
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs">
                 <div className="relative aspect-4/3 bg-gray-100">
-                  <Image src="/images/nanodak/pisos/exteriores.png" alt="Exteriores" fill unoptimized className="object-cover" />
+                  <Image src="/images/nanodak/pisos/exteriores.webp" alt="Exteriores" fill className="object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="text-sm font-bold text-gray-900 mb-1">Exteriores</h3>
@@ -229,7 +228,7 @@ export default function PisosAltoTransitoPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div className="lg:col-span-5 relative min-h-[280px] rounded-2xl overflow-hidden shadow-xs border border-gray-200">
-                <Image src="/images/nanodak/pisos/rendimiento-confiable-cada-detalle.png" alt="Rendimiento confiable" fill unoptimized className="object-cover object-center" />
+                <Image src="/images/nanodak/pisos/rendimiento-confiable-cada-detalle.webp" alt="Rendimiento confiable" fill className="object-cover object-center" />
               </div>
 
               <div className="lg:col-span-7">

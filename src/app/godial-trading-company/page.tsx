@@ -17,11 +17,10 @@ export default function GodialTradingPage() {
           {/* Panoramic Cargo Ship Hero Image */}
           <div className="absolute inset-0 w-full h-full max-w-[1920px] mx-auto">
             <Image
-              src="/images/godial-landing-hero.png"
+              src="/images/godial-landing-hero.webp"
               alt="Godial Trading Company Hero composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             {/* Soft left gradient fade for text legibility matching Figma */}
@@ -36,10 +35,9 @@ export default function GodialTradingPage() {
               <div className="flex items-center gap-4">
                 <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0">
                   <Image
-                    src="/images/godial/logo-hero.png"
+                    src="/images/godial/logo-hero.webp"
                     alt="Godial Logo"
                     fill
-                    unoptimized
                     className="object-contain"
                   />
                 </div>

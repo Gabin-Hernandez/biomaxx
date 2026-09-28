@@ -16,11 +16,10 @@ export default function ImportacionPage() {
         <section className="relative w-full overflow-hidden bg-white border-b border-slate-100 flex items-center min-h-[280px] sm:min-h-[360px] md:min-h-[420px] lg:min-h-[460px] max-h-[540px]">
           <div className="absolute inset-0 w-full h-full max-w-[1920px] mx-auto">
             <Image
-              src="/images/godial-importaciones-hero.png"
+              src="/images/godial-importaciones-hero.webp"
               alt="Godial Trading Importación Hero Banner"
               fill
               priority
-              unoptimized
               className="object-cover object-right sm:object-center w-full h-full"
             />
           </div>

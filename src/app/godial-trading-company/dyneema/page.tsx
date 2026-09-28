@@ -18,37 +18,37 @@ const DYNEEMA_PRODUCTS = [
     id: "chaleco-balistico",
     name: "Chaleco balístico",
     description: "Chalecos antibalas fabricados con Dyneema®, que brindan máxima protección con un peso reducido.",
-    image: "/images/dyneema/chaleco-balistico.png",
+    image: "/images/dyneema/chaleco-balistico.webp",
   },
   {
     id: "tela-dyneema",
     name: "Tela Dyneema",
     description: "Rollos de tela de Dyneema® para equipos de protección personal y soluciones técnicas.",
-    image: "/images/dyneema/rollo-tejido-dynema.png",
+    image: "/images/dyneema/rollo-tejido-dynema.webp",
   },
   {
     id: "casco-balistico",
     name: "Casco balístico",
     description: "Protección balística con materiales livianos para aplicaciones de seguridad.",
-    image: "/images/dyneema/casco-balistico.png",
+    image: "/images/dyneema/casco-balistico.webp",
   },
   {
     id: "guantes-proteccion",
     name: "Guantes de protección",
     description: "Guantes con fibras Dyneema® para protección, flexibilidad y comodidad.",
-    image: "/images/dyneema/guantes-anticorte.png",
+    image: "/images/dyneema/guantes-anticorte.webp",
   },
   {
     id: "cuerdas-dyneema",
     name: "Cuerdas Dyneema",
     description: "Cuerdas para aplicaciones náuticas e industriales.",
-    image: "/images/dyneema/cuerdas-dynema.png",
+    image: "/images/dyneema/cuerdas-dynema.webp",
   },
   {
     id: "placa-antitrauma",
     name: "Placa antitrauma",
     description: "Placas para complementar sistemas de protección balística.",
-    image: "/images/dyneema/placa-antitrauma.png",
+    image: "/images/dyneema/placa-antitrauma.webp",
   },
 ];
 
@@ -73,11 +73,10 @@ export default function DyneemaPage() {
         <section className="relative w-full min-h-[460px] lg:min-h-[520px] flex items-center overflow-hidden bg-white">
           <div className="absolute inset-0 w-full h-full z-0">
             <Image
-              src="/images/dyneema/hero.png"
+              src="/images/dyneema/hero.webp"
               alt="Dyneema® Tecnología Balística Hero Banner"
               fill
               priority
-              unoptimized
               className="object-cover object-center"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none" />
@@ -153,7 +152,6 @@ export default function DyneemaPage() {
                       src={product.image}
                       alt={product.name}
                       fill
-                      unoptimized
                       className="object-cover"
                     />
                   </div>

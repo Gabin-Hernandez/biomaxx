@@ -23,12 +23,11 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center group py-1">
             <Image
-              src="/images/LOGO-INSTITUCIONAL-FFF-FFF-.png"
+              src="/images/LOGO-INSTITUCIONAL-FFF-FFF-.webp"
               alt="BIOMAXX Logo"
               width={260}
               height={140}
               priority
-              unoptimized
               className="h-14 sm:h-18 md:h-20 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </Link>

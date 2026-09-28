@@ -69,8 +69,8 @@ const PAMPA_PRODUCTS_MAP: Record<string, ProductData> = {
     categoryTag: "PRODUCTO DESTACADO",
     description: "Pellets de quebracho colorado, sabor ahumado auténtico y alto rendimiento. Ideales para parrillas, ahumadores, pits y hornos al aire libre.",
     homeDescription: "Pellets de quebracho colorado, sabor ahumado auténtico y alto rendimiento.",
-    packImage: "/images/pampa/pellets/medidas.png",
-    individualImage: "/images/pampa/pellets/empaque.png",
+    packImage: "/images/pampa/pellets/medidas.webp",
+    individualImage: "/images/pampa/pellets/empaque.webp",
     individualTitle: "PELLET INDIVIDUAL",
     individualDimensions: "1,5 cm x 0,5 cm",
     topBadges: [
@@ -107,8 +107,8 @@ const PAMPA_PRODUCTS_MAP: Record<string, ProductData> = {
     categoryTag: "PRODUCTO DESTACADO",
     description: "Carbón de quebracho blanco argentino, seleccionado manualmente para ofrecer el máximo poder calorífico, larga duración y un sabor auténtico en cada cocción.",
     homeDescription: "Carbón de quebracho blanco argentino, máximo poder calorífico y larga duración.",
-    packImage: "/images/pampa/carbon/empaque.png",
-    individualImage: "/images/pampa/carbon/medidas.png",
+    packImage: "/images/pampa/carbon/empaque.webp",
+    individualImage: "/images/pampa/carbon/medidas.webp",
     individualTitle: "CARBÓN INDIVIDUAL",
     individualDimensions: "15 cm x 10 cm",
     topBadges: [
@@ -145,8 +145,8 @@ const PAMPA_PRODUCTS_MAP: Record<string, ProductData> = {
     categoryTag: "PRODUCTO DESTACADO",
     description: "Discos compactos de alta densidad, 100% naturales, con larga duración y calor constante. Ideales para parrillas, asadores, hornos y fuegos al aire libre.",
     homeDescription: "Disco de carbón vegetal de quebracho blanco con pizca de quebracho colorado.",
-    packImage: "/images/pampa/grill-torch/medidas.png",
-    individualImage: "/images/pampa/grill-torch/empaque.png",
+    packImage: "/images/pampa/grill-torch/medidas.webp",
+    individualImage: "/images/pampa/grill-torch/empaque.webp",
     individualTitle: "DISCO INDIVIDUAL",
     individualDimensions: "12 cm x 4 cm",
     topBadges: [
@@ -181,8 +181,8 @@ const PAMPA_PRODUCTS_MAP: Record<string, ProductData> = {
     categoryTag: "PRODUCTO DESTACADO",
     description: "Briquetas de quebracho blanco argentino, 100% naturales y seleccionadas. Máximo calor, larga duración y un sabor ahumado auténtico para todo tipo de cocción.",
     homeDescription: "Briquetas de quebracho blanco, máxima duración y calor constante.",
-    packImage: "/images/pampa/briquetas/empaque.png",
-    individualImage: "/images/pampa/briquetas/medidas.png",
+    packImage: "/images/pampa/briquetas/empaque.webp",
+    individualImage: "/images/pampa/briquetas/medidas.webp",
     individualTitle: "BRIQUETA INDIVIDUAL",
     individualDimensions: "57 mm x 30 mm x 12 mm",
     topBadges: [
@@ -254,7 +254,6 @@ export default async function PampaProductPage({ params }: { params: Promise<{ s
                 alt={product.title}
                 fill
                 priority
-                unoptimized
                 className="object-cover object-center w-full h-full"
               />
               <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-r from-transparent via-white/50 to-white hidden lg:block pointer-events-none" />
@@ -322,7 +321,6 @@ export default async function PampaProductPage({ params }: { params: Promise<{ s
                         src={product.individualImage}
                         alt={product.individualTitle}
                         fill
-                        unoptimized
                         className="object-contain"
                       />
                     </div>
@@ -420,7 +418,6 @@ export default async function PampaProductPage({ params }: { params: Promise<{ s
                         src={p.packImage}
                         alt={p.title}
                         fill
-                        unoptimized
                         className="object-contain p-3"
                       />
                     </div>

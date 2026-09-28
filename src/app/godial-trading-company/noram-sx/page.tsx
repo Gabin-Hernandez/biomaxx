@@ -8,25 +8,25 @@ import { ArrowRightIcon, ShieldIcon } from "@/components/Icons";
 const NORAM_PRODUCTS = [
   {
     id: "tuberias-y-accesorios",
-    image: "/images/noram-sx/tuberiasyaccesorios.png",
+    image: "/images/noram-sx/tuberiasyaccesorios.webp",
     title: "Tuberías y accesorios",
     description: "Tuberías, accesorios y componentes de alta performance para sistemas de alta confiabilidad en ambientes altamente corrosivos.",
   },
   {
     id: "reactores-y-equipos",
-    image: "/images/noram-sx/reactores-y-equipos.png",
+    image: "/images/noram-sx/reactores-y-equipos.webp",
     title: "Reactores y equipos",
     description: "Equipos y reactores utilizados en plantas de ácido nítrico, procesos químicos y por la industria de fertilizantes.",
   },
   {
     id: "valvulas-industriales",
-    image: "/images/noram-sx/valvulas-industriales.png",
+    image: "/images/noram-sx/valvulas-industriales.webp",
     title: "Válvulas industriales",
     description: "Válvulas en acero inoxidable especial para sistemas de conducción y control de procesos.",
   },
   {
     id: "bridas-y-conexiones",
-    image: "/images/noram-sx/bridas-y-contexiones.png",
+    image: "/images/noram-sx/bridas-y-contexiones.webp",
     title: "Bridas y conexiones",
     description: "Bridas y conexiones en acero inoxidable especial para el ensamble de tuberías y equipos.",
   },
@@ -53,11 +53,10 @@ export default function NoramSxPage() {
         <section className="relative w-full overflow-hidden min-h-[460px] md:min-h-[520px] flex items-center bg-gray-50">
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="/images/noram-sx/hero.png"
+              src="/images/noram-sx/hero.webp"
               alt="NORAM SX background composition"
               fill
               priority
-              unoptimized
               className="object-cover object-center w-full h-full"
             />
             <div className="absolute inset-y-0 left-0 w-full md:w-7/12 lg:w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent pointer-events-none" />
@@ -112,7 +111,7 @@ export default function NoramSxPage() {
                 <div key={prod.id} className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-xs flex flex-col justify-between">
                   <div>
                     <div className="relative aspect-4/3 bg-gray-100">
-                      <Image src={prod.image} alt={prod.title} fill unoptimized className="object-cover" />
+                      <Image src={prod.image} alt={prod.title} fill className="object-cover" />
                     </div>
                     <div className="p-4">
                       <h3 className="text-sm font-bold text-slate-900 mb-1">{prod.title}</h3>
