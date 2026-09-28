@@ -34,6 +34,8 @@ export function Hero() {
             priority
             className="object-cover object-center"
           />
+          {/* Mobile gradient overlay for text readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-transparent lg:hidden pointer-events-none z-10" />
 
           {/* Left Navigation Arrow on Image */}
           <button
